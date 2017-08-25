@@ -33,3 +33,51 @@ footer {
   color: white;
   padding: 20px;
 }
+
+.card-wrapper {
+  display: flex;
+  grid-area: card;
+  padding: 20px;
+  position: relative;
+  margin-top: -90px;
+}
+
+.card {
+  border: 3px gray solid;
+  padding: 15px;
+  flex: 1;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card-image {
+  max-height: 105px;
+  overflow: hidden;
+  display: flex;
+}
+
+.card-image img {
+  width: 100%;
+  align-self: center;
+}
+
+.card-read-more {
+  align-self: flex-end;
+  margin-top: auto;
+  width: 100%;
+}
+
+.card-read-more button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}

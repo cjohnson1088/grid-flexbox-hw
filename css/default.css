@@ -15,6 +15,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 li {
   font-weight: bold;
   padding: 5px;
@@ -89,7 +94,7 @@ footer {
 }
 
 .card-image {
-  max-height: 105px;
+  max-height: 150px;
   overflow: hidden;
   display: flex;
 }

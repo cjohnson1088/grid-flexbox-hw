@@ -77,7 +77,8 @@ footer {
   grid-area: card;
   padding: 20px;
   position: relative;
-  margin-top: -7em;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .card {
@@ -87,6 +88,7 @@ footer {
   margin-right: 15px;
   display: flex;
   flex-direction: column;
+  margin-top: -7em;
 }
 
 .card:last-child {

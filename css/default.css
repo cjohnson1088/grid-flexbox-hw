@@ -34,6 +34,39 @@ footer {
   padding: 20px;
 }
 
+#wrapper {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-areas: "header header"
+    "aside content"
+    "block block"
+    "card card"
+    "footer footer";
+}
+
+.head {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: aside;
+}
+
+.content {
+  grid-area: content;
+  padding: 10px 10px 35px 35px;
+}
+
+.content p {
+  line-height: 200%;
+}
+
+.block {
+  background-color: lightgray;
+  padding: 80px;
+  grid-area: block;
+}
+
 .card-wrapper {
   display: flex;
   grid-area: card;
@@ -80,4 +113,8 @@ footer {
   text-align: center;
   text-transform: uppercase;
   padding: 10px;
+}
+
+.footer {
+  grid-area: footer;
 }

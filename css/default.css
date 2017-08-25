@@ -1,0 +1,35 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+header {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+nav {
+  background-color: #efefef;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-weight: bold;
+  padding: 5px;
+}
+
+main {
+  background-color: white;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
